@@ -1,0 +1,36 @@
+.todo-app {
+  width: 450px;
+  margin: 100px auto 0;
+}
+
+.input {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #777;
+  font-size: 24px;
+}
+
+.todo {
+  height: 36px;
+  width: 100%;
+}
+
+.todo__check {
+  border-radius: 50%;
+  border: 1px solid green;
+  width: 24px;
+  height: 24px;
+  float: left;
+  cursor: pointer;
+}
+
+.todo__check.checked {
+  background-color: green;
+}
+
+.todo__cross {
+  float: right;
+  color: red;
+  margin: 0 10px;
+  cursor: pointer;
+}
